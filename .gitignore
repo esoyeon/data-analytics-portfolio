@@ -1,0 +1,8 @@
+.DS_Store
+.postman_history
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.env
