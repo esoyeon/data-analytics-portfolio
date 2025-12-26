@@ -28,9 +28,10 @@
 *   **톤업의 구체성**: 단순 '하얘짐'이 아닌 '맑은 상아빛', '균일한 톤' 등 톤업에 대한 소비자 기준이 매우 구체적임.
 
 ## Deliverables
-*   **GitHub Repository**: [esoyeon/sunscreen-review-unmet-needs](https://github.com/esoyeon/sunscreen-review-unmet-needs)
-*   **Final Report (PDF)**: [Suncream Unmet Needs Report](file:///Users/esoyeon/projects/_data_analysis/sunblock-review-analysis/report/final/suncream_unmet_needs_report_v2.pdf) (로컬 경로)
-*   **Interactive Dashboard**: [Web Dashboard](file:///Users/esoyeon/projects/_data_analysis/sunblock-review-analysis/report/site/index.html) (로컬 경로)
+*   **Deliverables**:
+    *   [GitHub Repository](https://github.com/esoyeon/sunscreen-review-unmet-needs)
+    *   [📄 **Final Report (PDF)**](../docs/sunscreen_report.pdf)
+
 
 ## Reproducibility
 **Environment**: Python 3.10+, Google Gemini API Key 필요

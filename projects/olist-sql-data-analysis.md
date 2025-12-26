@@ -27,8 +27,13 @@
 
 ## Deliverables
 *   **GitHub Repository**: [esoyeon/olist-sql-data-analysis](https://github.com/esoyeon/olist-sql-data-analysis)
-*   **SQL Query Set**: [SQL Files](file:///Users/esoyeon/projects/_data_analysis/olist-data-analysis/sql) (로컬 경로) - 질문별 최적화된 SQL 파일 포함
-*   **EDA Notebook**: [Jupyter Notebook](file:///Users/esoyeon/projects/_data_analysis/olist-data-analysis/notebooks/eda_olist.ipynb) (로컬 경로)
+*   **Deliverables**:
+    *   [📂 **SQL Queries**: 비즈니스 질문별 쿼리셋 (GitHub)](https://github.com/esoyeon/olist-sql-data-analysis/tree/main/sql)
+    *   [📊 **Result Snapshot**: 결과 시각화 예시](../assets/olist_result.png)
+    *   [📄 **Summary Report (PDF)**](../docs/olist_report.pdf)
+    *   [📓 **EDA Notebook**: 데이터 탐색 및 정합성 검증](../projects/olist-sql-data-analysis.md) <!-- Self-link replaced or point to actual repo -->
+        *   *(Note: Link to EDA Notebook is usually best served by GitHub URL)*
+        *   [📓 **EDA Notebook (GitHub)**](https://github.com/esoyeon/olist-sql-data-analysis/blob/main/notebooks/eda_olist.ipynb)
 
 ## Reproducibility
 **Environment**: Python 3.x, Jupyter Notebook, SQLite 3.25+
