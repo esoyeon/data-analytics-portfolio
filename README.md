@@ -22,7 +22,6 @@
 *   **Deliverables**:
 *   **Deliverables**:
     *   [📊 **PDF Report**: 최종 리포트](docs/sunscreen_report.pdf)
-
 *   **Tech Stack**: Python, Playwright, Gemini API, Plotly
 *   **Links**: [👉 프로젝트 상세 보기](projects/sunscreen-review-unmet-needs.md) | [GitHub Repository](https://github.com/esoyeon/sunscreen-review-unmet-needs)
 
@@ -34,8 +33,8 @@
 *   **Summary**: 브라질 Olist의 커머스 데이터를 SQL로 분석하여 **성장률 둔화, 재구매 부진** 등 비즈니스 현황을 객관적으로 진단했습니다.
 *   **Key Value**: 현업의 모호한 질문을 **명확한 지표(KPI)**로 정의하고, **Window Function** 등을 활용해 정교한 쿼리로 검증했습니다.
 *   **Deliverables**:
+    *   [📊 **Result Snapshot**: 분석 결과 시각화](assets/olist_result.png)
     *   [📂 **SQL Queries**: 비즈니스 질문별 쿼리셋](https://github.com/esoyeon/olist-sql-data-analysis/tree/main/sql)
-
 *   **Tech Stack**: SQL (SQLite), Python (Pandas)
 *   **Links**: [👉 프로젝트 상세 보기](projects/olist-sql-data-analysis.md) | [GitHub Repository](https://github.com/esoyeon/olist-sql-data-analysis)
 
