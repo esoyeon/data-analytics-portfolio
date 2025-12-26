@@ -31,8 +31,8 @@
 *   **Deliverables**:
     *   [GitHub Repository](https://github.com/esoyeon/sunscreen-review-unmet-needs)
     *   [📄 **Final Report (PDF)**](../docs/sunscreen_report.pdf)
-    *   [📊 **Result Overview**](../assets/sunscreen_overview.png)
-    *   [🔬 **Detailed Analysis**](../assets/sunscreen_detailed.png)
+    *   ![Result Overview](../assets/sunscreen_overview.png)
+    *   ![Detailed Analysis](../assets/sunscreen_detailed.png)
 
 
 ## Reproducibility
