@@ -17,8 +17,8 @@
 
 [![Sunscreen Analysis](assets/sunscreen_cover.png)](projects/sunscreen-review-unmet-needs.md)
 
-*   **Summary**: 11,000건의 썬크림 리뷰를 분석하여 별점만으로는 드러나지 않는 **5가지 핵심 불만(자극, 유분 등)**을 도출했습니다.
-*   **Key Value**: **LLM(Gemini)**을 활용해 비정형 텍스트를 정량 데이터로 변환하고, 조건부 불만족 패턴을 시각화했습니다.
+*   **Summary**: 11,000건의 썬크림 리뷰를 분석하여 별점만으로는 드러나지 않는 **5가지 핵심 불만(자극, 유분 등)을** 도출했습니다.
+*   **Key Value**: **LLM(Gemini)을** 활용해 비정형 텍스트를 정량 데이터로 변환하고, 조건부 불만족 패턴을 시각화했습니다.
 *   **Deliverables**:
 
     *   [📊 **PDF Report**: 최종 리포트](docs/sunscreen_report.pdf)
@@ -33,7 +33,7 @@
 [![Olist Analysis](assets/olist_result.png)](projects/olist-sql-data-analysis.md)
 
 *   **Summary**: 브라질 Olist의 커머스 데이터를 SQL로 분석하여 **성장률 둔화, 재구매 부진** 등 비즈니스 현황을 객관적으로 진단했습니다.
-*   **Key Value**: 현업의 모호한 질문을 **명확한 지표(KPI)**로 정의하고, **Window Function** 등을 활용해 정교한 쿼리로 검증했습니다.
+*   **Key Value**: 현업의 모호한 질문을 **명확한 지표(KPI)로** 정의하고, **Window Function** 등을 활용해 정교한 쿼리로 검증했습니다.
 *   **Deliverables**:
     *   [📊 **Result Snapshot**: 분석 결과 시각화](assets/olist_result.png)
     *   [📂 **SQL Queries**: 비즈니스 질문별 쿼리셋](https://github.com/esoyeon/olist-sql-data-analysis/tree/main/sql)
