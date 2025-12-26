@@ -1,12 +1,12 @@
 # Data Analytics Portfolio
 
-> **"데이터를 통해 비즈니스의 '다음 행동(Next Action)'을 제안합니다."**  
-> 안녕하세요, 데이터 분석가 이소연입니다. 복잡한 데이터 속에서 명확한 문제를 정의하고, 해결책을 찾아내는 과정을 즐깁니다.
+> **"비즈니스의 '다음 행동(Next Action)'을 제안하는 데이터 분석가 이소연입니다."**  
+> 모호한 문제 상황을 명확한 지표로 정의하고, 데이터에 기반한 실질적인 해결책을 제시합니다.
 
 ## 💡 Core Competencies
-*   **Insight Discovery**: 수만 건의 비정형/정형 데이터에서 비즈니스 성장의 기회가 되는 'Unmet Needs'를 발굴합니다.
-*   **Problem Solving**: "매출이 왜 안 오르지?"와 같은 추상적인 고민을 명확한 KPI와 분석 가능한 문제로 구체화합니다.
-*   **Analytical Engineering**: SQL 및 Python을 활용하여 분석를 위한 데이터 파이프라인을 주도적으로 설계하고 구현합니다.
+*   **Insight Discovery**: 1만 건 이상의 비정형 텍스트 데이터를 분석하여 신제품 기획을 위한 **핵심 니즈(Unmet Needs) 리포트**를 도출합니다.
+*   **Problem Solving**: "매출 부진" 같은 추상적 고민을 **검증 가능한 KPI**로 재정의하고, 원인 파악을 위한 분석 프레임워크를 설계합니다.
+*   **Analytical Engineering**: Python과 SQL을 활용해 데이터 수집부터 전처리와 시각화까지 전 과정을 자동화한 **분석 파이프라인**을 구축합니다.
 
 ---
 
@@ -17,8 +17,11 @@
 
 [![Sunscreen Analysis](assets/sunscreen_cover.png)](projects/sunscreen-review-unmet-needs.md)
 
-*   **Summary**: 올리브영 썬크림 카테고리 리뷰를 수집 및 분석하여, 기존 별점으로는 알 수 없는 5가지 핵심 불만(자극, 유분, 밀림 등)을 발굴했습니다.
-*   **Key Value**: **LLM(Gemini)**을 활용해 비정형 텍스트를 구조화하고, **Human-in-the-loop** 파이프라인으로 정확도를 확보했습니다.
+*   **Summary**: 11,000건의 썬크림 리뷰를 분석하여 별점만으로는 드러나지 않는 **5가지 핵심 불만(자극, 유분 등)**을 도출했습니다.
+*   **Key Value**: **LLM(Gemini)**을 활용해 비정형 텍스트를 정량 데이터로 변환하고, 조건부 불만족 패턴을 시각화했습니다.
+*   **Deliverables**:
+    *   [📊 **PDF Report**: 경영진 보고용 최종 리포트](https://github.com/esoyeon/sunscreen-review-unmet-needs/blob/main/report/final/suncream_unmet_needs_report_v2.pdf)
+    *   [🌐 **Interactive Dashboard**: 웹기반 분석 대시보드](https://github.com/esoyeon/sunscreen-review-unmet-needs/blob/main/report/site/index.html)
 *   **Tech Stack**: Python, Playwright, Gemini API, Plotly
 *   **Links**: [👉 프로젝트 상세 보기](projects/sunscreen-review-unmet-needs.md) | [GitHub Repository](https://github.com/esoyeon/sunscreen-review-unmet-needs)
 
@@ -27,9 +30,12 @@
 
 [![Olist Analysis](assets/olist_cover.png)](projects/olist-sql-data-analysis.md)
 
-*   **Summary**: 브라질 이커머스 Olist의 주문/결제/고객 데이터를 SQL로 분석하여 성장세, 카테고리별 성과, 고객 행동 패턴을 검증했습니다.
-*   **Key Value**: 현업의 비즈니스 질문을 **검증 가능한 SQL 쿼리**로 변환하고, 모호한 지표를 명확히 정의(KPI Definition)했습니다.
-*   **Tech Stack**: SQL (SQLite), Python (EDA)
+*   **Summary**: 브라질 Olist의 커머스 데이터를 SQL로 분석하여 **성장률 둔화, 재구매 부진** 등 비즈니스 현황을 객관적으로 진단했습니다.
+*   **Key Value**: 현업의 모호한 질문을 **명확한 지표(KPI)**로 정의하고, **Window Function** 등을 활용해 정교한 쿼리로 검증했습니다.
+*   **Deliverables**:
+    *   [📂 **SQL Queries**: 비즈니스 질문별 쿼리셋](https://github.com/esoyeon/olist-sql-data-analysis/tree/main/sql)
+    *   [📓 **EDA Notebook**: 데이터 탐색 및 정합성 검증](https://github.com/esoyeon/olist-sql-data-analysis/blob/main/notebooks/eda_olist.ipynb)
+*   **Tech Stack**: SQL (SQLite), Python (Pandas)
 *   **Links**: [👉 프로젝트 상세 보기](projects/olist-sql-data-analysis.md) | [GitHub Repository](https://github.com/esoyeon/olist-sql-data-analysis)
 
 ---
@@ -38,24 +44,22 @@
 
 | Category | Skills |
 | :--- | :--- |
-| **Data Analysis** | **SQL** (Advanced Querying, Window Functions), **Python** (Pandas, NumPy) |
-| **Text Analytics & AI** | **LLM Application** (Prompt Engineering, RAG), N-gram Analysis, Topic Modeling |
-| **Visualization** | Plotly, Matplotlib, Seaborn, Tableau |
+| **Data Analysis** | **SQL** (Window Functions, CTEs), **Python** (Pandas, NumPy) |
+| **Text Analytics** | **LLM Application** (Prompt Engineering, RAG), **NLP** (N-gram, Text Mining) |
+| **Visualization** | Plotly, Matplotlib, Seaborn |
 | **Engineering** | Git, Playwright (Crawling), SQLite |
-| **Soft Skills** | Logical Thinking, Business Communication, Documentation |
+| **Communication** | Business Report Writing, Data Storytelling |
 
 ---
 
 ## 📂 How to navigate
-본 포트폴리오 레포지토리는 다음과 같이 구성되어 있습니다.
 
 ```
 data-analytics-portfolio/
- ├── README.md                  # 포트폴리오 메인 (현재 페이지)
- ├── projects/                  # 프로젝트 상세 설명 페이지
- │   ├── sunscreen-review...    # 썬크림 리뷰 분석 상세
- │   └── olist-sql-data...      # Olist SQL 분석 상세
- └── assets/                    # 포트폴리오 이미지 리소스
+ ├── projects/                  # 프로젝트 상세 페이지 (방법론, 한계점 포함)
+ │   ├── sunscreen-review...    # 썬크림 리뷰 분석
+ │   └── olist-sql-data...      # Olist SQL 분석
+ └── assets/                    # 포트폴리오 리소스
 ```
 
 ## 📬 Contact
