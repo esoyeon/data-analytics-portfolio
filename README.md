@@ -20,9 +20,10 @@
 *   **Summary**: 11,000건의 썬크림 리뷰를 분석하여 별점만으로는 드러나지 않는 **5가지 핵심 불만(자극, 유분 등)**을 도출했습니다.
 *   **Key Value**: **LLM(Gemini)**을 활용해 비정형 텍스트를 정량 데이터로 변환하고, 조건부 불만족 패턴을 시각화했습니다.
 *   **Deliverables**:
-*   **Deliverables**:
+
     *   [📊 **PDF Report**: 최종 리포트](docs/sunscreen_report.pdf)
-    *   [🌐 **Result Snapshot**: 분석 결과 시각화](assets/sunscreen_result_composite.png)
+    *   [🌐 **Result Overview**: 분석 결과 요약](assets/sunscreen_overview.png)
+    *   [🔬 **Detailed Analysis**: 상세 분석 (Aspect & Heatmap)](assets/sunscreen_detailed.png)
 *   **Tech Stack**: Python, Playwright, Gemini API, Plotly
 *   **Links**: [👉 프로젝트 상세 보기](projects/sunscreen-review-unmet-needs.md) | [GitHub Repository](https://github.com/esoyeon/sunscreen-review-unmet-needs)
 
