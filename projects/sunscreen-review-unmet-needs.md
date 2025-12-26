@@ -27,12 +27,14 @@
 *   **메이크업 궁합(Compatibility)**: 단독 사용 시 만족도가 높아도, 파운데이션과의 밀림 현상이 발생하면 재구매 의사가 급락함.
 *   **톤업의 구체성**: 단순 '하얘짐'이 아닌 '맑은 상아빛', '균일한 톤' 등 톤업에 대한 소비자 기준이 매우 구체적임.
 
+### 📊 Data Visualization
+![Result Overview](../assets/sunscreen_overview.png)
+![Detailed Analysis](../assets/sunscreen_detailed.png)
+
 ## Deliverables
 *   **Deliverables**:
     *   [GitHub Repository](https://github.com/esoyeon/sunscreen-review-unmet-needs)
-    *   [📄 **Final Report (PDF)**](../docs/sunscreen_report.pdf)
-    *   ![Result Overview](../assets/sunscreen_overview.png)
-    *   ![Detailed Analysis](../assets/sunscreen_detailed.png)
+    *   [📄 Final Report (PDF)](../docs/sunscreen_report.pdf)
 
 
 ## Reproducibility
