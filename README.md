@@ -22,6 +22,7 @@
 *   **Deliverables**:
 *   **Deliverables**:
     *   [📊 **PDF Report**: 최종 리포트](docs/sunscreen_report.pdf)
+    *   [🌐 **Result Snapshot**: 분석 결과 시각화](assets/sunscreen_result_composite.png)
 *   **Tech Stack**: Python, Playwright, Gemini API, Plotly
 *   **Links**: [👉 프로젝트 상세 보기](projects/sunscreen-review-unmet-needs.md) | [GitHub Repository](https://github.com/esoyeon/sunscreen-review-unmet-needs)
 
