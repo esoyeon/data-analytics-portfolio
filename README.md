@@ -42,6 +42,15 @@
 
 ---
 
+## 🔧 Tools I Built
+
+분석하다 반복되는 병목은 직접 도구로 만듭니다.
+
+*   **[web-sql-drill](https://github.com/esoyeon/web-sql-drill)** — 브라우저 안 실제 PostgreSQL(PGlite)에서 실행·채점되는 SQL 연습 도구. LLM이 생성한 문제는 실행 검증을 통과한 것만 사용자에게 제공됩니다. (MIT)
+*   **[ranking-strategy-lab](https://github.com/esoyeon/ranking-strategy-lab)** — 행동 신호로 랭킹 로직 후보를 만들고 비교·평가·기록하는 의사결정 워크벤치. (가상 데이터)
+
+---
+
 ## 🛠 Skills
 
 | Category | Skills |
